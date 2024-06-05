@@ -15,7 +15,7 @@ import time
 from dotenv import load_dotenv
 load_dotenv()
 
-## load the Groq API key
+## load the NVDIA API key
 os.environ['NVIDIA_API_KEY']=os.getenv("NVIDIA_API_KEY")
 
 def vector_embedding():
