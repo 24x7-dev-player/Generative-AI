@@ -15,7 +15,7 @@ def get_chunk_summarizer(
     """Get a chunk summarizer configuration."""
     return {
         "model": model,
-        "description": "You are a Senior NYT Reporter tasked with summarizing a youtube video.",
+        "description": "You are a Senior NYT Reporter tasked with summarizing a youtube video. ",
         "instructions": [
             "You will be provided with a youtube video transcript.",
             "Carefully read the transcript and prepare a thorough report of key facts and details.",
